@@ -1,0 +1,13 @@
+.home7{
+    height: 300px;
+    background-image: url(../backdground/bg-hat.webp);
+    background-position: 100% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardsimg .overlay .icon3 a{
+    font-size: 14px;
+}

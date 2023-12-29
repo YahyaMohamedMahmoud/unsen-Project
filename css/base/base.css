@@ -1,0 +1,44 @@
+/* fonts file  */
+@import url("fonts.css");
+/*  */
+img{
+    width: 100%;
+    display: block;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    transition: all .5s;
+}
+a:hover{
+color: #0ec1ae;
+border-color: #0ec1ae;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding-left: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-bottom: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.m-70{
+    margin: 70px 0;
+}
+.mb-70{
+    margin-bottom: 70px;
+}
+::placeholder{
+    color: #8686861e;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+input:focus{
+    box-shadow: none;
+    border-color: #8686861e;
+}

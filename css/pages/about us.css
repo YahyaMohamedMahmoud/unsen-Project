@@ -1,0 +1,113 @@
+.home9{
+    height: 300px;
+    background-image: url(../backdground/bn-mq.jpg);
+    background-position: 40% 36%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.simp .simptext{
+    text-align: center;
+}
+.simp .simptext h1{
+    text-transform: capitalize;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.simp .simptext p{
+    font-size: 16px;
+    color: #868686;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+}
+.simp .simp2 {
+    margin-top: 60px;
+}
+.simp .simp2 .simpimg{
+    padding: 0 20px;
+}
+.simp .simp2 .img2{
+    margin-top: 80px;
+}
+.day{
+    background-color:  #f9f7f2;
+    padding: 60px 0;
+    text-align: center;
+}
+.day .day1 .logo span{
+    font-size: 40px;
+}
+.day .day1 .logotext h5{
+    font-size: 20px;
+    font-family:PoppinsLight ;
+    text-transform: capitalize;
+    padding: 15px 0;
+}
+.day .day1 .logotext p{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family:PoppinsLight ;
+    color: #868686;
+}
+.meet .team{
+    margin-bottom: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.meet .team h4{
+font-size: 35px;
+text-transform: capitalize;
+font-family:PoppinsRegular ;
+
+}
+.meet .meettext{
+    text-align: center;
+}
+.meet .meettext h6{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-family:PoppinsRegular ;
+    text-transform: capitalize;
+}
+.meet .meettext p{
+    font-size: 15px;
+    color: #868686;
+    font-family:PoppinsLight ;
+    text-transform: capitalize;
+}
+.meet1 .meetimg{
+position: relative;
+}
+.meet1 .meetimg .over{
+position: absolute;
+inset: 0;
+background-color: rgba(255, 255, 255, 0.46);
+opacity: 0;
+transition: all .5s;
+}
+.meet1 .meetimg:hover .over{
+    opacity: 1;
+}
+.meet1 .meetimg .over .want{
+    position: absolute;
+    bottom: 30px;
+    left: 26%;
+    opacity: 0;
+   transform: translateY(20px);
+   transition: all .5s;
+}
+.meet1 .meetimg .over .want a{
+   margin-inline-end: 25px;
+}
+.meet1 .meetimg .over:hover .want{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+
+
+
+

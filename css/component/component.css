@@ -1,0 +1,400 @@
+/* shop page */
+.shop{
+    padding: 50px 0;
+    border-bottom: 1px solid #86868624;
+}
+.shoptext{
+    text-align: center;
+    text-transform: capitalize;
+}
+.shoptext h1{
+    font-size: 60px;
+    font-family:PoppinsLight ;
+    padding-bottom: 20px;
+}
+.shoptext .icio{
+    font-size: 12px;
+    margin: 0 5px;
+    color: black;
+}
+.shoptext span{
+color: #868686;
+}
+
+
+/* cardsimg style start in pages (Home-shop)*/
+.cardstext{
+    padding-top: 10px;
+    padding-left: 2px;
+    margin-bottom: 30px;
+}
+.cardstext a{
+    font-size: 16px;
+    font-family:PoppinsRegular ;
+    transition: all .2s;
+    display: block;
+}
+.cardstext a:hover{
+    color: #0ec1ae;
+}
+.cardstext p{
+    font-size: 15px;
+    color: #868686;
+    padding-top: 6px;
+    display: inline-block;
+}
+.cardstext .sam{
+font-size: 13px;
+color: #868686;
+}
+.cardstext .big{
+    font-size: 15px;
+    color: red;
+    padding-left: 9px;
+}
+.cardsimg {
+position: relative;
+overflow: hidden;
+}
+.cardsimg  .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all .8s;
+}
+.cardsimg .overlay::after{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.271);
+    position: absolute;
+    inset: 0;
+    opacity: 1;
+}
+.cardsimg .overlay img{
+transition: all 1.9s;
+}
+.cardsimg .overlay .icon2 a{
+    opacity: 0;
+    z-index: 1;
+    transition: all .6s;
+}
+.cardsimg:hover .overlay .icon2 a{
+    opacity: 1;
+    top: 70px;
+}
+.cardsimg:hover  .overlay img{
+    transform: scale(1.1);
+}
+.cardsimg .overlay .icon3 a{
+    padding: 5px;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    border-radius: 40px;
+    position: absolute;
+    bottom: 20px;
+    left: 39%;
+    text-align: center;
+    opacity: 0;
+    z-index: 1;
+    transition: all .5s;
+    overflow: hidden;
+}
+.cardsimg .overlay .icon3 a::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: all .5s;
+    z-index: -1;
+}
+.cardsimg .overlay .icon3 a:hover::after{
+    opacity: 1;
+}
+.cardsimg .overlay .icon3 a:hover{
+    color: white;
+    z-index: 1;
+}
+.cardsimg:hover .overlay .icon3 a{
+opacity: 1;
+left: 24%;
+}
+.cardsimg:hover .overlay .icon4 a{
+    opacity: 1;
+    left: 50%;
+}
+.icon{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 1;
+    text-transform: capitalize;
+}
+.cardsimg .icon span{
+    padding: 5px;
+    background-color: white;
+    color: #ec7501;
+    font-size: 12px;
+    border-radius: 40px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.cardsimg .icon a{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    transition: all .5s;
+}
+.cardsimg .icon a:hover{
+    background-color: black;
+    color: white;
+}
+.cardsimg:hover .overlay{
+    opacity: 1;
+}
+.cards .link2{
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cards .link2 a{
+    border: 1px solid black;
+}
+/* cardsimg style end in pages (Home-shop)*/
+
+
+
+
+/* best sec style start in shop pages(Men-Women- */
+.best .order{
+    border: 1px solid #86868620;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+.best .order h2{
+    font-size: 15px;
+    font-family:PoppinsRegular ;
+text-transform: uppercase;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+.best .order li{
+    margin-bottom: 10px;
+}
+.best .order li a{
+color: #868686;
+font-size: 15px;
+transition: all .5s;
+}
+.best .order li a:hover{
+    color: black;
+}
+.best .order .order1{
+    border-bottom: 2px solid #86868620;
+    text-transform: capitalize;
+}
+.best .order .order1:last-child{
+    border-bottom: none;
+}
+.best .order .order1 .form-check{
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+.best .order .order1 .form-check2{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 14px;
+}
+.best .order .order1 p{
+    font-size: 14px;
+    color: #868686;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.best .order .order1 p span{
+    color: black;
+    font-family:PoppinsMedium ;
+}
+.best .order .order1 .fil{
+    padding: 10px 30px;
+    font-size: 14px;
+    font-family:PoppinsMedium ;
+    border: 1px solid black;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    background-color: white;
+    transition: all .5s;
+}
+.best .order .order1 .fil:hover{
+    background-color: #0ec1ae;
+    color: white;
+    border-color: #0ec1ae;
+}
+.best .order .order1 .link{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.best .order .order1 .link .add{
+    margin-inline-end: 5px;
+    padding: 7px 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 14px;
+    transition: all .5s;
+    margin-bottom: 15px;
+    background-color: white;
+    text-transform: capitalize;
+}
+.best .order .order1 .link .add:hover{
+    background-color: #0ec1ae;
+    color: white;
+    border-color: #0ec1ae;
+}
+.best .order .order1 .link a:hover{
+    background-color: #0ec1ae;
+    color: white;
+    border-color: #0ec1ae;
+}
+.best .order .order1 .link3 .add{
+    padding: 5px 10px;
+    font-size: 13px;
+}
+.best .order .order1 .link3 .add span{
+    color: green;
+}
+.best .order .order1 .link3 .add .be{
+    color: rgb(165, 165, 62);
+}
+.best .order .order1 .link3 .add .bl{
+    color: black;
+}
+.best .order .order1 .link3 .add .br{
+    color: rgba(165, 42, 42, 0.678);
+}
+.best .order .order1 .link3 .add .cy{
+    color: #09c;
+}
+.best .order .order1 .link3 .add .or{
+    color: orange;
+}
+.best .order .order1 .link3 .add .pi{
+    color: pink;
+}
+.best .order .order1 .link3 .add .re{
+    color: red;
+}
+.best .order .order1 .link3 .add .vi{
+    color: violet;
+}
+.best .order .order1 .link3 .add .wi{
+    color: white;
+}
+.best .order .order1 .link3 .add .yw{
+    color: yellow;
+}
+.best .order .order1 .size{
+    padding: 10px 13px;
+    background-color: white;
+    border: 1px solid #86868678;
+    border-radius: 50%;
+    font-size: 12px;
+    font-family:PoppinsMedium ;
+    margin-bottom: 20px;
+    margin-right: 2px;
+    text-transform: capitalize;
+    transition: all .5s;
+}
+.best .order .order1 .size:hover{
+    border-color: black;
+}
+.best .order .order1 .size1{
+    padding: 10px 16px;
+}
+.best .order .order1 .size2{
+    padding: 10px 7px;
+}
+.best .order .order1 .size3{
+    padding: 7px 10px;
+    border-radius: 20px;
+}
+.cardsimg .overlay .icon3 a{
+    font-size: 11px;
+    left: 43%;
+}
+.cardsimg:hover .overlay .icon4 a{
+    left: 55%;
+}
+.best .cardstext .big{
+    padding-left: 1px;
+}
+.best .cardstext a{
+    font-size: 15px;
+}
+/* best sec style end in shop pages*/
+
+
+/* in store and contact us pages */
+.but li{
+    padding-bottom: 25px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.but li span{
+    padding-inline-end: 10px;
+    font-size: 17px;
+}
+/* in store and contact us pages */
+
+
+
+
+
+
+#lightBoxContainer{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.363);
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+#lightBoxItem{
+width: 400px;
+height: 500px;
+background-image: url(../backdground/ultimate-crop-bandeau-tops_black_01.webp);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: relative;
+padding: 15px;
+}
+#lightBoxItem #close{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+#lightBoxItem i{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}

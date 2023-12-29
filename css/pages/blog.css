@@ -1,0 +1,194 @@
+.true .true1{
+    margin-bottom: 30px;
+}
+.true .true1 .truetext{
+padding-top: 20px;
+padding-left: 10px;
+}
+.true .true1 .truetext .fas{
+font-size: 12px;
+font-family:PoppinsMedium ;
+color: #868686;
+display: block;
+text-transform: uppercase;
+padding-bottom: 10px;
+}
+.true .true1 .truetext a{
+    font-size: 27px;
+    letter-spacing: 1px;
+    display: block;
+    font-family:PoppinsLight ;
+
+}
+.true .true1 .truetext .by , .com , .cen{
+    font-size: 13px;
+    display: inline-block;
+    margin-inline-end: 30px;
+    padding: 10px 0;
+    color: #868686;
+    text-transform: capitalize;
+}
+.true .true1 .truetext span{
+    padding-inline-end: 6px;
+}
+.true .true1 .truetext .more{
+padding: 10px 0;
+}
+.true .true1 .truetext .more a{
+font-size: 13px;
+display: inline-block;
+font-family:PoppinsRegular ;
+border-bottom: 2px solid black;
+padding-bottom: 6px;
+
+}
+.true .true1 .truetext .more a:hover{
+    border-color: #0ec1ae;
+    letter-spacing: 2px;
+}
+.true .true2 .search{
+    background-color: black;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.true h4{
+    font-size: 12px;
+    color: white;
+    border-left: 2px solid white;
+    padding-inline-start: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family:PoppinsMedium ;
+}
+.true .true2 .search input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 0;
+    border: 1px solid white;
+}
+.true .true2 .search input:focus{
+    outline: none;
+}
+.true .true3{
+    padding: 20px 0px;
+}
+.true .true3 table{
+    width: 100%;
+}
+.true .true3 table h4{
+    color: black;
+    border-color: black;
+    margin-top: 10px;
+    margin-inline-start: 13px;
+} 
+.true .true3 table td {
+    padding: 10px;
+}
+.true .true3 table td .true3link a{
+    display: block;
+    line-height: 2.7;
+    font-size: 12px;
+    font-family:PoppinsRegular ;
+
+}
+.true .true3 table td .true3link span{
+    color: #8686865c;
+    padding-inline-end: 6px;
+}
+.true .true3 table td .true3link a:first-child{
+    color: #0ec1ae;
+}
+.true .true3 table td .true3link{
+    margin-inline-start: 13px;
+    padding-bottom: 10px;
+}
+.true .true3 table td .true3img{
+    margin-top: 10px;
+}
+.true .true3 table td .true3img img{
+max-width: 90px;
+} 
+.true .true3 table td .true3img .imgtext a{
+    font-size: 13px;
+
+}
+.true .true3 table td .true3img .imgtext p{
+    font-size: 12px;
+    padding-top: 4px;
+    padding-bottom: 20px;
+}
+.true .true3 .hold ,.hold2{
+    border: 2px solid black;
+}
+.true .true3 table td .sign{
+    font-size: 14px;
+    text-align: center;
+    font-family:PoppinsMedium ;
+    color: black;
+    padding: 10px 0;
+    text-transform: capitalize;
+    line-height: 2;
+    margin-bottom: 10px;
+}
+.true .true3 table td input{
+    border-radius: 0;
+    padding: 6px;
+    margin-bottom: 20px;
+
+}
+.true .true3 table td input:focus{
+    box-shadow: none;
+    border: 1px solid #8686863f;
+}
+.true .true3 table td input::placeholder{
+    font-size: 13px;
+}
+.true .true3 table td .btn{
+    border-radius: 0;
+    border: 1px solid #8686863f;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+
+}
+.true .true3 table td .true3social{
+    display: inline-block;
+    padding-inline-end: 6px;
+    margin-inline-start: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.true .true3 table td .true3social a{
+    border: 1px solid rgba(0, 0, 0, 0.393);
+    border-radius: 50%;
+    padding: 5px 7px;
+    font-size: 12px;
+    transition: all .4s;
+}
+.true .true3 table td .true3social a:hover{
+    color: red;
+    border-color: red;
+}
+.true .true3 table td .true3pages{
+    display: inline-block;
+    margin-inline-end: 6px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.true .true3 table td .true3pages a{
+    padding: 7px 12px;
+    border: 1px solid #8686863f;
+    color: #868686;
+    font-size: 12px;
+    transition: all .4s;
+}
+.true .true3 table td .true3pages a:hover{
+    border-color: #0ec1ae;
+    color: #0ec1ae;
+}
+
+
+
+
+
+

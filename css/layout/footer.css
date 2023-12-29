@@ -1,0 +1,72 @@
+footer{
+    border-top: 1px solid #86868624;
+    padding: 50px 0;
+}
+footer .stay .stayimg{
+    max-width: 140px;
+    padding-bottom: 25px;
+}
+footer .stay .staytext p{
+font-size: 15px;
+color: #868686;
+padding-bottom: 30px;
+padding-right: 60px;
+}
+footer .stay .staytext .staytext2 span{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 15px 20px;
+    font-size: 20px;
+}
+footer .stay .staytext .staytext2 p{
+    color: black;
+    padding-bottom: 5px;
+    font-size: 14px;
+    padding-right: 60px;
+}
+footer .stay .staytext .iconlink{
+    padding-top: 30px;
+}
+footer .stay .staytext .iconlink a{
+   margin-inline-end: 30px;
+}
+footer .story h6{
+    font-size: 16px;
+    font-family:PoppinsMedium ;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+footer .story li {
+    margin-bottom: 10px;
+}
+footer .story li a{
+    color: #868686;
+    font-size: 15px;
+    transition: all .5s;
+}
+footer .story li a:hover{
+ color: black;   
+}
+footer .story p{
+    color: #868686;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+footer .story input{
+    padding: 10px 20px;
+    background-color: #86868626;
+    border-radius: 0;
+}
+footer .story input:focus{
+    box-shadow: none;
+    border-color: #86868624;
+    background-color: #86868626;
+}
+footer .story .btn{
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border-radius: 0;
+    border-color: black;
+    padding: 0 20px;
+}

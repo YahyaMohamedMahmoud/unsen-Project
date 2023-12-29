@@ -1,0 +1,85 @@
+.header {
+    padding: 10px 0;
+    background-color: white;
+}
+.header .navbar-brand{
+    max-width: 120px;
+}
+.header .navbar-nav .nav-item{
+    padding: 0 9px;
+}
+.header .navbar-nav .nav-item a{
+    font-family:PoppinsMedium ;
+ transition: all .2s;
+}
+.header .navbar-nav .dropdown-item{
+   margin-bottom: 6px; 
+}
+.header .navbar-nav .item2{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.header .navbar-nav .nav-item a:hover{
+    color: #0ec1ae;
+}
+.header .social{
+    margin-top: 10px;
+}
+.header .social a{
+    color: black;
+   font-size: 18px;
+   padding: 0px 10px;
+}
+.header .social .chat{
+   margin-top: 10px;
+}
+.headerFixed{
+    position: fixed;
+    top: -40px;
+    right: 0;
+    left: 0;
+    background-color: white;
+    z-index: 11;
+    transform: translateY(40px);
+    transition: all .5s;
+}
+.btn3{
+    position: fixed;
+    right: 59px;
+    bottom: 50px;
+    z-index: 11;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s;
+    padding: 6px 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.516);
+    color: black;
+    background-color: transparent;
+    transform: rotate(270deg);
+}
+.btn3 i{
+    text-align: center;
+    animation-name: test;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes test {
+    0%{
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    50%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(10px);
+    }
+}
+.show{
+    opacity: 1;
+    visibility: visible;
+}

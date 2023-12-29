@@ -1,0 +1,377 @@
+.shop .shoptext h1{
+    font-size: 35px;
+}
+.cam .cam1{
+margin-top: 40px;
+padding: 10px;
+}
+.cam .cam1 .camlist{
+    text-transform: capitalize;
+}
+.cam .cam1 .camlist h3{
+    font-size: 16px;
+    font-family:PoppinsMedium ;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.cam .cam1 .camlist ul{
+    border-bottom: 1px solid #86868652;
+    padding-bottom: 15px;
+}
+.cam .cam1 .camlist ul li{
+    padding-bottom: 5px;
+}
+.cam .cam1 .camlist ul li a{
+    color: #868686;
+    font-size: 14px;
+    transition: all .4s;
+}
+.cam .cam1 .camlist ul li a:hover{
+    color: black;
+}
+.cam .cam1 .camlist1{
+    padding: 10px 0;
+    border-bottom: 1px solid #86868660;
+}
+.cam .cam1 .camlist1 .deliver{
+    padding-bottom: 20px;
+}
+.cam .cam1 .camlist1 span{
+    font-size: 25px;
+}
+.cam .cam1 .camlist1 h4{
+    font-size: 14px;
+    font-family:PoppinsMedium ;
+    text-transform: uppercase;
+}
+.cam .cam1 .camlist1 p{
+    font-size: 12px;
+    color: #868686;
+    text-transform: capitalize;
+}
+.cam .cam1 .camlist .camimg .camlistimg{
+    margin-bottom: 3px;
+    position: relative;
+}
+.cam .cam1 .camlist .camimg .camlistimg::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.292);
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: all .5s;
+}
+.cam .cam1 .camlist .camimg .camlistimg:hover::after{
+    opacity: 1;
+}
+.cam .cambest{
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.cam .bella{
+    margin-top: 66px;
+}
+.cam .bella .bellatext{
+    text-transform: capitalize;
+    border-bottom: 1px solid #86868649;
+    padding-bottom: 20px;
+}
+.cam .bella .bellatext h3{
+    font-size: 25px;
+    font-family:PoppinsRegular ;
+    padding-bottom: 10px;
+}
+.cam .bella .bellatext h4{
+    font-size: 20px;
+}
+.cam .bella .bellalink p{
+    font-size: 13px;
+    color: #868686;
+    padding-bottom: 15px;
+}
+.cam .bella .bellalink{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cam .bella .bellalink .btn{
+    font-size: 14px;
+    text-transform: capitalize;
+    padding-left: 0;
+}
+.cam .bella .bellalink .modal-title{
+    font-size: 19px;
+    font-family:PoppinsLight ;
+}
+.cam .bella .bellalink .modal-body h1{
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.table th{
+    font-size: 12px;
+    color: #868686;
+}
+.table td{
+    font-size: 12px;
+    color: #868686;
+}
+.cam .bella .bellalink .modal-body .tabtext{
+    padding-top: 10px;
+}
+.cam .bella .bellalink .modal-body .tabtext h4{
+font-size: 19px;
+padding-bottom: 20px;
+}
+.cam .bella .bellalink .modal-body .tabtext h5{
+font-size: 17px;
+}
+.cam .bella .bellalink .modal-body .tabtext p{
+font-size: 13px;
+color: #868686;
+padding-top: 5px;
+}
+.cam .bella .bellalink .modal-footer .btn{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+}
+.cam .bella .bellasize p{
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.cam .bella .bellasize .xs{
+    padding: 10px 12px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #8686866e;
+    text-transform: capitalize;
+    font-size: 13px;
+    margin-inline-end: 5px;
+    transition: all .3s;
+    color: #868686;
+}
+.cam .bella .bellasize .s{
+    padding: 10px 15px;   
+}
+.cam .bella .bellasize .l{
+    padding: 10px 17px;   
+}
+.cam .bella .bellasize .xs:hover{
+    border-color: black;
+    color: black;
+}
+.cam .bella .bellasize .blu{
+    padding: 4px 8px;
+    border-radius: 30px;
+    font-size: 12px;
+    margin-inline-end: 5px;
+    border: 1px solid #86868650;
+    background-color: white;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.cam .bella .bellasize .blu .blue{
+    color: blue;
+}
+.cam .bella .bellasize .blu .red{
+    color: red;
+}
+.cam .bella .bellasize .blu .pink{
+    color: pink;
+}
+.cam .bella .bellasize .active{
+    border-color: black;
+} 
+.cam .bella .bellasize input{
+    width: 30%;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid #86868672;
+    color: black;
+}
+.cam .bella .bellasize input:focus{
+    outline: none;
+}
+.cam .bella .bellasize .add{
+    padding: 11px 85px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family:PoppinsMedium ;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    transition: all .5s;
+}
+.cam .bella .bellasize .add:hover{
+background-color: #0ec1ae;
+border-color: #0ec1ae;
+}
+.cam .bella .bellasize .to{
+    display: inline-block;
+    padding-top: 20px;
+    margin-inline-end: 30px;
+    margin-bottom: 30px;
+}
+.cam .bella .bellasize .to .wish{
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 12px;
+    border: 1px solid #868686;
+    background-color: white;
+}
+.cam .bella .bellasize .to a{
+    font-size: 14px;
+    font-family:PoppinsMedium ;
+}
+.cam .bella .bellasize .tolog a{
+    font-size: 13px;
+    margin-inline-end: 40px;
+    font-family:PoppinsMedium ;
+}
+.cam .bella .bellasize .visa{
+    margin: 30px 0;
+}
+.cam .bella .bellasize .topage p{
+display: inline-block;
+margin-inline-end: 30px;
+font-family:PoppinsMedium ;
+}
+.cam .bella .bellasize .topage a{
+    color: #868686;
+    transition: all .5s;
+    margin: 2px;
+}
+.cam .bella .bellasize .topage a:hover{
+    color: #0ec1ae;
+    
+}
+.cam .bella .bellasize .iconlink p{
+    display: inline-block;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #868686;
+    margin-right: 20px;
+}
+.cam .bella .bellasize .iconlink a{
+    margin-inline-end: 20px;
+    font-size: 14px;
+}
+.des .destext nav .nav-link{
+    text-transform: capitalize;
+    color: #868686;
+}
+.des .destext nav .active{
+    color: black;
+}
+.des .destext {
+    text-transform: capitalize;
+}
+.des .destext .tab-content .tab-pane{
+padding-top: 20px;
+}
+.des .destext .tab-content .tab-pane h3{
+    font-size: 15px;
+    font-family:PoppinsSemiBold ;
+
+
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.des .destext .tab-content .tab-pane p{
+    font-size: 14px;
+    color: #868686;
+    padding-top: 30px;
+}
+.des .destext .find table{
+    margin-top: 30px;
+    border: 1px solid #86868639;
+}
+.des .destext .find table td ,th{
+    border: 1px solid #86868639;
+}
+.des .destext .find table th{
+    text-transform: uppercase;
+}
+.des .destext .tab-pane table {
+    width: 100%;
+}
+.des .destext .tab-pane table th,td{
+    border: 1px solid #86868639;
+    padding: 5px 10px;
+    color: #868686;
+    font-size: 14px;
+}
+.des .destext .tab-pane table th h5{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+.des .destext .tab-pane table th .star{
+    font-family:PoppinsLight ;
+    font-size: 12px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.start1{
+    text-align: end;
+    margin-top: -70px;
+}
+.start1 .card{
+    text-align: start;
+}
+.des .destext .tab-pane table th .start1 .btn{
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.des .destext .tab-pane table th .start1 .card h5{
+    font-size: 14px;
+    color: black;
+    padding-bottom: 20px;
+}
+.des .destext .tab-pane table th .start1 .card label{
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #868686;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.des .destext .tab-pane table th .start1 .card input,textarea{
+    padding: 10px 20px;
+    border: 1px solid #86868658;
+    background-color: white;
+}
+::placeholder{
+    color: rgba(0, 0, 0, 0.57);
+}
+.des .destext .tab-pane table th .start1 .card input,textarea:focus{
+    outline: none;
+}
+.des .destext .tab-pane table th .sw{
+    padding-top: 5px;
+    font-size: 14px;
+    color: black;
+}
+.des .destext .tab-pane table th .test{
+    padding: 5px 0;
+    text-transform: lowercase;
+}
+.des .destext .tab-pane table th .xwc{
+    font-size: 12px;
+    padding-top: 5px;
+    text-transform: lowercase;
+    padding-bottom: 30px;
+}
+.pro .protext{
+    text-align: center;
+}
+.pro .protext h3{
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family:PoppinsLight ;
+    text-transform: capitalize;
+
+}

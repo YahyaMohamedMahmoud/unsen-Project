@@ -1,0 +1,19 @@
+.home4{
+    height: 300px;
+    background-image: url(../backdground/bg.jpg);
+    background-position: 100% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home2 .shoptext h1{
+    color: black;
+}
+.home2 .shoptext a{
+    color: black;
+}
+.home2 .shoptext span{
+    color: black;
+}

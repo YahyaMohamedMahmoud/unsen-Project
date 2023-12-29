@@ -1,0 +1,10 @@
+.home6{
+    height: 300px;
+    background-image: url(../backdground/ffff.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

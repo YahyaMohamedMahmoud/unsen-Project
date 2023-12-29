@@ -1,0 +1,100 @@
+.home10{
+    height: 300px;
+    background-image: url(../backdground/wallpaperflare.com_wallpaper\ \(21\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.home10::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.432);
+    position: absolute;
+    inset: 0;
+    opacity: 1;
+    z-index: -1;
+}
+.home10 .shoptext h1{
+    color: white;
+    font-family:PoppinsExtraLight ;
+
+}
+.home10 .shoptext a{
+    color: white;
+}
+.home10 .shoptext span{
+    color: white;
+}
+.time {
+   border-bottom: 1px solid #86868653;
+   padding-bottom: 70px;
+}
+.time2{
+    border-bottom: none;
+} 
+.time  .timetext h2{
+    font-size: 25px;
+    font-family:PoppinsLight ;
+    padding-bottom: 20px;
+}
+.time  .timetext p{
+font-size: 14px;
+color: #868686;
+padding-bottom: 30px;
+line-height: 1.8;
+}
+.time  .timetext .dir{
+    font-size: 14px;
+    font-family:PoppinsLight ;
+    padding: 10px 50px;
+    text-transform: capitalize;
+    border-radius: 0;
+    border: 1px solid black;
+    background-color: transparent;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+.time  .timetext .dir::after{
+    content: "";
+    width: 0;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: all .5s;
+    z-index: -1;
+}
+.time  .timetext .dir:hover::after{
+    opacity: 1;
+    width: 100%;
+}
+.time  .timetext .dir:hover{
+    color: white;
+}
+.time  .timetext .open{
+    color: black;
+    padding-bottom: 2px;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.time  .timetext .mon{
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+
+
+
+
+
+

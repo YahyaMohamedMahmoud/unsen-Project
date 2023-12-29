@@ -1,0 +1,109 @@
+.log{
+    height: 100vh;
+    background-image: url(../backdground/Fashion-2.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.log::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.395);
+    position: absolute;
+    inset: 0;
+    opacity: 1;
+}
+.log .logtext{
+    width: 25%;
+    position: absolute;
+    top: 20%;
+    left: 36%;
+    z-index: 1;
+    color: white;
+
+}
+.log .logtext h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family:PoppinsExtraLight ;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.log .logtext .user{
+    width: 100%;
+    display: block;
+    padding: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.249);
+    margin-top: 20px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.448);
+    border-radius: 30px;
+}
+.log .logtext .user:focus{
+    border: 1px solid rgba(255, 255, 255, 0.448);
+}
+.log .logtext input::placeholder{
+    color: white;
+    padding-inline-start: 10px;
+    font-family:PoppinsExtraLight ;
+}
+.log .logtext .get{
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px 0;
+    border-radius: 30px;
+    text-transform: uppercase;
+    background-color: tomato;
+    color: white;
+    border: 1px solid tomato;
+    transition: all .5s;
+}
+.log .logtext .get:hover{
+    background-color: transparent;
+    border-color: white;
+}
+.log .logtext form .keep{
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.log .logtext form .keep input{
+    background-color: rgba(255, 255, 255, 0.519); 
+}
+.log .logtext form .keep label{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family:PoppinsMedium ;
+    letter-spacing: 1px;
+}
+.log .logtext form .keep .for a{
+color: white;
+}
+.log .logtext form .keep2 .cre{
+    text-align: center;
+    margin-top: 40px;
+}
+.log .logtext form .keep2 .cre a{
+color: white;
+text-transform: uppercase;
+font-family:PoppinsLight ;
+letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

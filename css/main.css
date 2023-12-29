@@ -1,0 +1,42 @@
+/* vendors style  */
+@import url("vendors/all.css");
+@import url("vendors/fontawesome.min.css");
+@import url("vendors/animate.css");
+@import url("vendors/bootstrap.min.css");
+/* vendors style */
+/* base file */
+@import url("base/base.css");
+/* base file */
+
+/* layout style */
+@import url("layout/header.css");
+@import url("layout/footer.css");
+/* layout style */
+
+/* component style */
+@import url("component/component.css");
+/* component style */
+
+/* pages style start*/
+@import url("pages/home.css");
+@import url("pages/shop.css");
+@import url("pages/men.css");
+@import url("pages/women.css");
+@import url("pages/watches.css");
+@import url("pages/glasses.css");
+@import url("pages/jewelry.css");
+@import url("pages/shoes.css");
+@import url("pages/cap.css");
+@import url("pages/bags.css");
+@import url("pages/product.css");
+@import url("pages/cart.css");
+@import url("pages/blog.css");
+@import url("pages/log in.css");
+@import url("pages/register.css");
+@import url("pages/about us.css");
+@import url("pages/store.css");
+@import url("pages/contact.css");
+/* pages style end */
+
+/* responsive style */
+@import url("responsive/responsive.css");

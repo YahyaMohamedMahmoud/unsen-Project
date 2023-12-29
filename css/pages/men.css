@@ -1,0 +1,10 @@
+.home1{
+    height: 300px;
+    background-image: url(../backdground/Fashion-5.webp);
+    background-position: 100% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

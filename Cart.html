@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="#" />
+    <meta name="keywords" content="#" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="icon"
+      type="png"
+      href="img/Home img/z3594756212370_c53fe46b351a211cca86ae67b01d3595.webp"
+    />
+    <title>Cart</title>
+  </head>
+  <body>
+     <!-- header start -->
+     <header class="header" id="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/Home img/logo_black-Unsen.svg" alt="#">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-3 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="Shop.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Shop
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item item2" href="Shop.html">Shop Main</a></li>
+                  <li><a class="dropdown-item" href="Men.html">Men</a></li>
+                  <li><a class="dropdown-item" href="Women.html">Women</a></li>
+                  <li><a class="dropdown-item" href="Watches.html">Watches</a></li>
+                  <li><a class="dropdown-item" href="Glasses.html">Glasses</a></li>
+                  <li><a class="dropdown-item" href="Jewelry.html">Jewelry</a></li>
+                  <li><a class="dropdown-item" href="Shoes.html">Shoes</a></li>
+                  <li><a class="dropdown-item" href="Cap.html">Cap</a></li>
+                  <li><a class="dropdown-item" href="Bags.html">Bages</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Product.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Blog.html">Blog</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="Store.html">Store</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About us.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact us.html">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Log in .html">Log In</a>
+              </li>
+            </ul>
+           <div class="social">
+            <a class="chat" href="Shop.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a class="chat"  href="Log in .html"><i class="fa-regular fa-user"></i></a>
+            <a href="Product.html" type="button" class="btn position-relative mb-1">
+              <span><i class="fa-regular fa-heart"></i></span>
+              <span class="position-absolute top-30 start-95 translate-middle badge rounded-pill bg-danger">
+                0
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </a>
+            <a href="Cart.html" type="button" class="btn position-relative mb-1">
+              <span><i class="fa-solid fa-store"></i></span>
+              <span class="position-absolute top-30 start-95 translate-middle badge rounded-pill bg-danger">
+                2
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </a>
+           </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <button class="btn2 btn3" id="btn"><i class="fa-solid fa-angles-right"></i></button>
+    <!-- header end -->
+
+    <!-- shop sec start -->
+    <section class="shop">
+      <div class="container">
+        <div class="shoptext">
+          <h1 class="car">shopping cart</h1>
+          <a href="index.html">home</a>
+          <span class="icio"><i class="fa-solid fa-greater-than"></i></span>
+          <span>cart</span>
+        </div>
+      </div>
+    </section>
+    <!-- shop sec end -->
+
+    <!-- price sec start -->
+    <section class="price m-70">
+      <div class="container">
+        <table class="table table-borderd">
+          <thead>
+            <tr>
+              <th scope="col-xl-4 col-lg-6 col-md-8">product</th>
+              <th scope="col-xl-1 col-lg-1 col-md-1">price</th>
+              <th scope="col-xl-1 col-lg-1 col-md-1 ">quantity</th>
+              <th scope="col-xl-1 col-lg-1 col-md-1">total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="web">
+                <div class="d-flex">
+                  <div class="flex-shrink-0">
+                    <div class="priceimg">
+                      <img
+                        src="img/cart/Bella-Tie-Shoulder-Cami_02.webp"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <div class="pricetext">
+                      <a href="Product.html">bella tie shoulder cami</a>
+                      <p>Size: XS</p>
+                      <p>Color: Blue</p>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <p class="num">
+                  <del>$45.00</del>
+                </p>
+                <span>$36.00</span><br />
+                <p class="auto">Automatic 20% (-$18.00)</p>
+              </td>
+              <td>
+                <label for="number"></label>
+                <input type="number" name="number" id="number" value="2" />
+              </td>
+              <td>
+                <p class="you"><del>$90.00</del></p>
+                <p class="you">$148.00</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="d-flex">
+                  <div class="flex-shrink-0">
+                    <div class="priceimg">
+                      <img
+                        src="img/cart/Jacket-_-Sun-Bleached_01.webp"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <div class="pricetext">
+                      <a href="Product.html">Denim Jacket Sun Bleached</a>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <p class="num">
+                  <del>$199.00</del>
+                </p>
+                <span>$148.00</span>
+              </td>
+              <td>
+                <label for="number"></label>
+                <input type="number" name="number" id="number" value="1" />
+              </td>
+              <td><p class="you">$148.00</p></td>
+            </tr>
+            <tr></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <!-- price sec end -->
+
+    <!-- add sec start -->
+    <section class="add m-70">
+      <div class="container">
+        <div class="row m-0 justify-content-between ">
+          <div class="col-xl-6 col-lg-6 col-md-6">
+            <div class="add1">
+              <div class="add2">
+                <p>
+                  <span><i class="fa-solid fa-gift"></i></span>
+                  DO YOU WANT A GIFT WRAP? ONLY $5.00
+                </p>
+                <button class="btn">add a gift wrap</button>
+              </div>
+
+              <div class="add3">
+                <label for="text">
+                  <span><i class="fa-solid fa-pen-fancy"></i></span>
+                  <p>add order note</p>
+                </label>
+                <input
+                  type="text"
+                  name="text"
+                  id="text"
+                  placeholder="how can i help you?"
+                />
+              </div>
+              <div class="add3">
+                <label for="code">
+                  <span><i class="fa-solid fa-percent"></i></span>
+                  <p>coupon:</p>
+                  <br />
+                  <p class="code">Coupon code will work on checkout page</p>
+                </label>
+                <input
+                  type="text"
+                  name="code"
+                  id="code"
+                  placeholder="cupon code"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="ship">
+              <p><span>congratulation</span> you've got free shipping!</p>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Animated striped example"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  class="progress-bar progress-bar-striped progress-bar-animated"
+                  style="width: 100%"
+                ></div>
+              </div>
+              <div class="van">
+                <span><i class="fa-solid fa-truck"></i></span>
+              </div>
+              <div class="money">
+                <p>$238.00</p>
+                <p>SUBTOTAL: $238.00</p>
+                <p>$220.00 USD</p>
+                <p class="tax">
+                  Tax included. Shipping calculated at checkout.
+                </p>
+                <label for="radio">
+                  I agree with the terms and conditions.
+                </label>
+                <input type="radio" name="radio" id="radio" />
+                <button class="out">check out</button>
+                <div class="nor">
+                  <img src="img/cart/trust_img2.avif" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- add sec end -->
+
+    <!-- count sec start -->
+    <section class="count m-70">
+      <div class="container">
+        <div class="counttext">
+          <h3>Estimate shipping</h3>
+        </div>
+        <div class="coun">
+          <div class="row justify-content-center align-items-center m-0">
+            <div class="col-xl-3 col-lg-3 col-md-4">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>country</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>florida</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4">
+              <label for="code"></label>
+              <input type="text" name="code" id="code" />
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4">
+              <button class="of">estimate</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- count sec end -->
+
+    <!-- pro sec start -->
+    <section class="pro">
+      <div class="protext">
+        <h3>related products</h3>
+      </div>
+      <div class="container">
+        <div class="cardsshop">
+          <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="cardsimg wow fadeInLeft"data-wow-duration=2s>
+                <div class="overlay">
+                  <div class="icon icon2">
+                    <a href=""><i class="fa-solid fa-shuffle"></i></a>
+                  </div>
+                  <div class="icon3">
+                    <a href="">quick view</a>
+                  </div>
+                  <div class="icon3 icon4">
+                    <a href="">add to cart</a>
+                  </div>
+                  <img src="img/Jewlery/ROW-CLEAR-CZ-RING_02.webp" alt="">
+                
+                </div>
+                <div class="icon">
+                    <span>-31%</span>
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                </div>
+              <a href=""> <img src="img/Jewlery/ROW-CLEAR-CZ-RING_03.webp" alt=""></a> 
+              </div>
+              <div class="cardstext wow fadeInUp"data-wow-duration=2s>
+                <a href="">row clear cz ring</a>
+                <p>$186.00</p>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="cardsimg wow fadeInUp"data-wow-duration=2s>
+                <div class="overlay">
+                  <div class="icon icon2">
+                    <a href=""><i class="fa-solid fa-shuffle"></i></a>
+                  </div>
+                  <div class="icon3">
+                    <a href="">quick view</a>
+                  </div>
+                  <div class="icon3 icon4">
+                    <a href="">add to cart</a>
+                  </div>
+                  <img src="img/Bages/dance_nylon_01.webp" alt="">
+                
+                </div>
+                <div class="icon">
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                </div>
+              <a href=""> <img src="img/Bages/dance_nylon_main.webp" alt=""></a> 
+              </div>
+              <div class="cardstext wow fadeInUp"data-wow-duration=2s>
+                <a href="">dance bag nylon</a>
+                <p>$18.00</p>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="cardsimg wow fadeInUp"data-wow-duration=2s>
+                <div class="overlay">
+                  <div class="icon icon2">
+                    <a href=""><i class="fa-solid fa-shuffle"></i></a>
+                  </div>
+                  <div class="icon3">
+                    <a href="">quick view</a>
+                  </div>
+                  <div class="icon3 icon4">
+                    <a href="">quick shop</a>
+                  </div>
+                  <img src="img/Glasses/Artboard4.webp" alt="">
+                
+                </div>
+                <div class="icon">
+                    <span>-13%</span>
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                </div>
+              <a href=""> <img src="img/Glasses/Artboard1.webp" alt=""></a> 
+              </div>
+              <div class="cardstext wow fadeInUp"data-wow-duration=2s>
+                <a href="">artboard brown glasses</a>
+                <p>$88.00</p>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="cardsimg wow fadeInRight"data-wow-duration=2s>
+                <div class="overlay">
+                  <div class="icon icon2">
+                    <a href=""><i class="fa-solid fa-shuffle"></i></a>
+                  </div>
+                  <div class="icon3">
+                    <a href="">quick view</a>
+                  </div>
+                  <div class="icon3 icon4">
+                    <a href="">quick shop</a>
+                  </div>
+                  <img src="img/Watches/ROSSLING-_-CO.-Watch_02.webp" alt="">
+                
+                </div>
+                <div class="icon">
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                </div>
+              <a href=""> <img src="img/Watches/ROSSLING-_-CO.-Watch_01.webp" alt=""></a> 
+              </div>
+              <div class="cardstext wow fadeInUp"data-wow-duration=2s>
+                <a href="">rossling & co watch</a>
+                <p>$1,586.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- pro sec end -->
+
+   <!-- footer start -->
+<footer>
+  <div class="container">
+    <div class="row justify-content-between">
+
+      <div class="col-xl-4 col-lg-4 col-md-5">
+        <div class="stay">
+          <div class="stayimg">
+            <img src="img/Home img/logo_black-Unsen.svg" alt="">
+          </div>
+          <div class="staytext">
+            <p>Usen is an exciting contemporary 
+              brand which focuses on
+               high-quality products graphics with a British style</p>
+               <div class="staytext2">
+               <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <span><i class="fa-solid fa-location-dot"></i></span>
+                </div>
+                <div class="flex-grow-1 ms-3">
+                 <p>30 Buttonwood St.Pataskala OH 43062
+                  (+1)-613-333-0101</p>
+                  <p>sayhello@boni.com</p>
+                </div>
+              </div>
+              </div>
+              <div class="iconlink">  
+                <a href="https://www.facebook.com/?locale=ar_AR" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/?lang=ar" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/?hl=ar" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://dribbble.com/" target="_blank"><i class="fa-brands fa-dribbble"></i></a>
+                <a href="https://www.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest-p"></i></a>
+             
+              </div>
+          
+          </div>
+        </div>
+      </div>
+
+<div class="col-xl-2 col-lg-4 col-md-2">
+  <div class="story">
+    <h6>our stories</h6>
+    <ul>
+      <li><a href="Men.html">men</a></li>
+      <li><a href="Women.html">women</a></li>
+      <li><a href="Shoes.html">shoes</a></li>
+      <li><a href="Watches.html">watches</a></li>
+      <li><a href="Jewelry.html">jewelry</a></li>
+      <li> <a href="Bags.html">bages</a></li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="col-xl-2 col-lg-4 col-md-2">
+  <div class="story">
+    <h6>our stories</h6>
+    <ul>
+      <li><a href="Shop.html">our story</a></li>
+      <li><a href="Contact us.html">store location</a></li>
+      <li><a href="Blog.html">careers</a></li>
+      <li><a href="Blog.html">our blog</a></li>
+      <li><a href="Women.html">brands</a></li>
+      <li> <a href="Contact us.html">contact us</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="col-xl-3 col-lg-4  col-md-5">
+  <div class="story">
+    <h6>stay connected</h6>
+    <p>Subscribe to our newsletter 
+      and get 10% off your first purchase</p>
+      <div class="input-group mb-3">
+        <input type="email" name="email" id="email" class="form-control" placeholder="your email address" aria-label="Recipient's email" aria-describedby="button-addon2">
+        <button class="btn" type="button" id="button-addon2"><i class="fa-regular fa-paper-plane"></i></button>
+      </div>
+  </div>
+</div>
+    </div>
+  </div>
+</footer>
+<!-- footer end -->
+
+    <!-- js files -->
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>

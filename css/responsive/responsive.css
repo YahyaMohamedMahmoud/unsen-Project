@@ -1,0 +1,1216 @@
+@media screen and (max-width:1024px) {
+    header .navbar-brand{
+        max-width: 80px;
+    }
+    header .nav-link {
+        font-size: 13px;
+    padding: 0px 5px;
+    }
+    header .navbar-nav .nav-item {
+        padding: 9px 6px;
+    }
+    header .social a{
+        color: black;
+       font-size: 14px;
+       padding: 2px 10px;
+    }
+    
+    .home .carousel-item img{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .home .carousel-item .door{
+        object-position: 73%;
+    }
+    .home .carousel-caption{
+        top: 20%;
+        right:0%;
+        left: 6%;
+    }
+    .home .carousel-caption h1{
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .carousel-caption h2{
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+    .carousel-caption .bttn,.bttns{
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .items{
+        margin: 20px 0;
+    }
+    .items .itemstext{
+        width: 50%;
+    top: 20%;
+    left: 5%;
+
+    }
+    .items .itemstext p{
+        font-size: 12px;
+    }
+    .items .itemstext h2{
+        font-size:40px;
+        padding-bottom: 15px;
+    }
+    .items .itemstext a{
+        font-size: 15px;
+    }
+    .cards .nav .nav-link{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .cards .link a{
+        display: none;
+    }
+    .cardstext a{
+        font-size: 16px;
+    }
+    .cardstext p{
+        font-size: 15px;
+        color: #868686;
+        padding-top: 6px;
+        display: inline-block;
+    }
+    .cardstext .big{
+        font-size: 13px;
+    }
+    .play{
+        height: 500px;
+    }
+    .play .playtext{
+        gap: 10px;
+        margin-bottom: 40px;
+    }
+    .play .playtext1 {
+        width: 60%;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    .play .playtext1 p{
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family:PoppinsSemiBold ;
+        letter-spacing: 1px;
+    }
+    .play .playtext1 h3{
+        font-size: 28px;
+    }
+    .play {
+        margin: 20px 0;
+    }
+    .line{
+        margin: 20px 0;
+    }
+    .lineimg2 img{
+        height: 460px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .line .lineimg1 .overlay2 a{
+        left: 30%;
+    }
+    .line .lineimg1 .overlay2 .men{
+        left: 35%;
+    }
+    .line .lineimg1 .overlay2 a{
+        padding: 10px 20px;
+        background-color: white;
+        color: black;
+        font-size: 12px;
+        font-family:PoppinsMedium ;
+        z-index: 1;
+    }
+    .our{
+        margin-bottom: 10px;
+    }
+    .our .ourtext{
+        padding: 30px 20px;
+    }
+    .our .ourtext span{
+        font-size: 60px;
+        padding-left: 0px;
+        padding-right: 8px;
+    }
+    .our .ourtext h4{
+        font-size: 25px;
+    }
+    .our .ourtext p{
+        font-size: 13px;
+    }
+    .our .ourtext1 input{
+        margin-top: 18px;
+        width: 100%;
+        padding: 10px 37px;
+        border-bottom: 3px solid black;
+        border-radius: 0;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        margin-right: 20px;
+        outline: none;
+    }
+    .our .ourtext1 .btn{
+        padding: 7px 11px;
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+    .blog{
+    margin: 20px 0;
+    }
+    .blog .blogtext1 .card-footer{
+        margin-bottom: 30px;
+    }
+    .photo .insta{
+        display: none;
+    }
+    .mar{
+        margin-bottom: 30px;
+    }
+    footer .stay{
+        margin-bottom: 30px;
+    }
+    footer .story{
+        margin-bottom: 10px;
+    }
+    footer .stay .staytext p{
+        font-size: 13px;
+        padding-bottom: 20px;
+        padding-right: 5px;
+    }
+    footer .stay .staytext .staytext2 span{
+            padding: 12px 15px;
+            font-size: 15px;
+    }
+    footer .stay .staytext .staytext2 p{
+
+         padding-bottom: 7px;
+         font-size: 12px;
+         padding-right: 10px;
+    }
+    footer .stay .staytext .iconlink{
+            padding-inline-start: 0px;
+    }
+    footer .story h6{
+            font-size: 15px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+    }
+    footer .story li {
+        margin-bottom: 5px;
+    }
+    .home4{
+        background-position: 62% 0%;
+
+    }
+    .home5{
+        background-position: 60% 0%;
+    }
+    .log .logtext{
+        width: 40%;
+        position: absolute;
+        top: 10%;
+        left: 29%;
+    }
+    .log{
+        height: 450px;
+    }
+    .log .logtext h1{
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+    .log .logtext form .keep label{
+        font-size: 13px;
+    }
+    .log .logtext form .keep .for a{
+        font-size: 13px;
+    }
+    .log .logtext form .keep2 .cre{
+        margin-top: 20px;
+    }
+    .log .logtext form .keep2 .cre a{
+        font-size: 15px;
+
+    }
+    .add .add1 .btn {
+        padding: 8px 13px;
+        margin-top: 10px;
+        font-size: 11px;
+      }
+
+}
+
+@media screen and (max-width:992px) {
+    header .navbar-brand{
+        max-width: 80px;
+    }
+    header .nav-link {
+        font-size: 13px;
+    padding: 0px 5px;
+    }
+    header .navbar-nav .nav-item {
+        padding: 9px 6px;
+    }
+    header .social a{
+        color: black;
+       font-size: 14px;
+       padding: 2px 10px;
+    }
+    
+    .home .carousel-item img{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .home .carousel-item .door{
+        object-position: 73%;
+    }
+    .home .carousel-caption{
+        top: 20%;
+        right:0%;
+        left: 6%;
+    }
+    .home .carousel-caption h1{
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .carousel-caption h2{
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+    .carousel-caption .bttn,.bttns{
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .items{
+        margin: 20px 0;
+    }
+    .items .itemstext{
+        width: 50%;
+    top: 20%;
+    left: 5%;
+
+    }
+    .items .itemstext p{
+        font-size: 12px;
+    }
+    .items .itemstext h2{
+        font-size:40px;
+        padding-bottom: 15px;
+    }
+    .items .itemstext a{
+        font-size: 15px;
+    }
+    .cards .nav .nav-link{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .cards .link a{
+        display: none;
+    }
+    .cardstext a{
+        font-size: 16px;
+    }
+    .cardstext p{
+        font-size: 15px;
+        color: #868686;
+        padding-top: 6px;
+        display: inline-block;
+    }
+    .cardstext .big{
+        font-size: 13px;
+    }
+    .play{
+        height: 500px;
+    }
+    .play .playtext{
+        gap: 10px;
+        margin-bottom: 40px;
+    }
+    .play .playtext1 {
+        width: 60%;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    .play .playtext1 p{
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family:PoppinsSemiBold ;
+        letter-spacing: 1px;
+    }
+    .play .playtext1 h3{
+        font-size: 28px;
+    }
+    .play {
+        margin: 20px 0;
+    }
+    .line{
+        margin: 20px 0;
+    }
+    .lineimg2 img{
+        height: 460px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .line .lineimg1 .overlay2 a{
+        left: 30%;
+    }
+    .line .lineimg1 .overlay2 .men{
+        left: 35%;
+    }
+    .line .lineimg1 .overlay2 a{
+        padding: 10px 20px;
+        background-color: white;
+        color: black;
+        font-size: 12px;
+        font-family:PoppinsMedium ;
+        z-index: 1;
+    }
+    .our{
+        margin-bottom: 10px;
+    }
+    .our .ourtext{
+        padding: 30px 20px;
+    }
+    .our .ourtext span{
+        font-size: 60px;
+        padding-left: 0px;
+        padding-right: 8px;
+    }
+    .our .ourtext h4{
+        font-size: 25px;
+    }
+    .our .ourtext p{
+        font-size: 13px;
+    }
+    .our .ourtext1 input{
+        margin-top: 18px;
+        width: 100%;
+        padding: 10px 37px;
+        border-bottom: 3px solid black;
+        border-radius: 0;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        margin-right: 20px;
+        outline: none;
+    }
+    .our .ourtext1 .btn{
+        padding: 7px 11px;
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+    .blog{
+    margin: 20px 0;
+    }
+    .blog .blogtext1 .card-footer{
+        margin-bottom: 30px;
+    }
+    .photo .insta{
+        display: none;
+    }
+    .mar{
+        margin-bottom: 30px;
+    }
+    footer .stay{
+        margin-bottom: 30px;
+    }
+    footer .story{
+        margin-bottom: 10px;
+    }
+    footer .stay .staytext p{
+        font-size: 13px;
+        padding-bottom: 20px;
+        padding-right: 5px;
+    }
+    footer .stay .staytext .staytext2 span{
+            padding: 12px 15px;
+            font-size: 15px;
+    }
+    footer .stay .staytext .staytext2 p{
+
+         padding-bottom: 7px;
+         font-size: 12px;
+         padding-right: 10px;
+    }
+    footer .stay .staytext .iconlink{
+            padding-inline-start: 0px;
+    }
+    footer .story h6{
+            font-size: 15px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+    }
+    footer .story li {
+        margin-bottom: 5px;
+    }
+    .home4{
+        background-position: 62% 0%;
+
+    }
+    .home5{
+        background-position: 60% 0%;
+    }
+    .cam .bella .bellasize .add{
+        padding: 11px 45px;
+    }
+    .log .logtext{
+        width: 40%;
+        position: absolute;
+        top: 10%;
+        left: 29%;
+    }
+    .log{
+        height: 450px;
+    }
+    .log .logtext h1{
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+    .log .logtext form .keep label{
+        font-size: 13px;
+    }
+    .log .logtext form .keep .for a{
+        font-size: 13px;
+    }
+    .log .logtext form .keep2 .cre{
+        margin-top: 20px;
+    }
+    .log .logtext form .keep2 .cre a{
+        font-size: 15px;
+
+    }
+    .add .add1 .btn {
+        padding: 10px 30px;
+        margin-top: 10px;
+        font-size: 10px;
+      }
+      .add .add1 .add3 input {
+        padding: 10px;
+      }
+      .count .coun {
+        padding: 50px 10px;
+      }
+      .count .counttext h3 {
+        top: -10%;
+        right: 36%;
+        font-size: 25px;
+      }
+      .count .coun input {
+        width: 100%;
+        margin-bottom: 5px;
+      }
+      .count .coun .form-select{
+        margin-top: 20px;
+      }
+      .count .coun .of{
+        margin-top: 20px;
+      }
+      .add .add1 .btn {
+        padding: 8px 13px;
+        margin-top: 10px;
+        font-size: 11px;
+      }
+
+}
+
+
+@media screen and (max-width:768px) {
+  
+    .home .carousel-item img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: 50%;
+    }
+    .home .carousel-item .door{
+        object-position: 73%;
+    }
+    .home .carousel-caption{
+        top: 10%;
+        right:0%;
+        left: 6%;
+    }
+    .home .carousel-caption h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .carousel-caption h2{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .carousel-caption .bttn,.bttns{
+        padding: 6px 10px;
+        font-size: 11px;
+    }
+    .items{
+        margin: 20px 0;
+    }
+    .items .itemstext{
+    top: 10%;
+    left: 5%;
+    }
+    .items .itemstext p{
+        font-size: 12px;
+    }
+    .items .itemstext h2{
+        font-size:25px;
+        padding-bottom: 5px;
+    }
+    .items .itemstext a{
+        font-size: 12px;
+    }
+    .cards .nav .nav-link{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .cards .link a{
+        display: none;
+    }
+    .cardstext a{
+        font-size: 12px;
+    }
+    .cardstext p{
+        font-size: 13px;
+        color: #868686;
+        padding-top: 6px;
+        display: inline-block;
+    }
+    .cardstext .big{
+        font-size: 13px;
+    }
+    .play{
+        height: 500px;
+    }
+    .play .playtext{
+        gap: 10px;
+        margin-bottom: 40px;
+    }
+    .play .playtext1 {
+        width: 70%;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    .play .playtext1 p{
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family:PoppinsSemiBold ;
+        letter-spacing: 1px;
+    }
+    .play .playtext1 h3{
+        font-size: 28px;
+    }
+    .play {
+        margin: 20px 0;
+    }
+    .line{
+        margin: 20px 0;
+    }
+    .lineimg2 img{
+        height: 343px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .line .lineimg1 .overlay2 a{
+        left: 25%;
+    }
+    .line .lineimg1 .overlay2 .men{
+        left: 35%;
+    }
+    .line .lineimg1 .overlay2 a{
+        padding: 10px 20px;
+        background-color: white;
+        color: black;
+        font-size: 12px;
+        font-family:PoppinsMedium ;
+        z-index: 1;
+    }
+    .our{
+        margin-bottom: 10px;
+    }
+    .our .ourtext{
+        padding: 30px 20px;
+    }
+    .our .ourtext span{
+        font-size: 60px;
+        padding-left: 0px;
+        padding-right: 8px;
+    }
+    .our .ourtext h4{
+        font-size: 25px;
+    }
+    .our .ourtext p{
+        font-size: 13px;
+    }
+    .our .ourtext1 input{
+        margin-top: 18px;
+        width: 100%;
+        padding: 10px 0px;
+        border-bottom: 3px solid black;
+        border-radius: 0;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        margin-right: 5px;
+        outline: none;
+    }
+    .our .ourtext1 .btn{
+        padding: 7px 11px;
+        margin-left: 10px;
+        margin-top: 25px;
+    }
+    .blog{
+    margin: 20px 0;
+    }
+    .blog .blogtext1 .card-footer{
+        margin-bottom: 30px;
+    }
+    .photo .insta{
+        display: none;
+    }
+    footer .stay{
+        margin-bottom: 30px;
+    }
+    footer .story{
+        margin-bottom: 10px;
+    }
+    footer .stay .staytext p{
+        font-size: 13px;
+        padding-bottom: 20px;
+        padding-right: 5px;
+    }
+    footer .stay .staytext .staytext2 span{
+            padding: 12px 15px;
+            font-size: 15px;
+    }
+    footer .stay .staytext .staytext2 p{
+
+         padding-bottom: 7px;
+         font-size: 12px;
+         padding-right: 10px;
+    }
+    footer .stay .staytext .iconlink{
+            padding-inline-start: 0px;
+    }
+    footer .story h6{
+            font-size: 15px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+    }
+    footer .story li {
+        margin-bottom: 5px;
+    }
+    .best .order{
+        display: none;
+    }
+
+    .home4{
+        background-position: 62% 0%;
+
+    }
+    .home5{
+        background-position: 60% 0%;
+    }
+    .home8{
+        background-position: center;
+    }
+    .cam .cam1{
+        display: none;
+    }
+    .cam .cambest{
+        margin-top: 50px;
+        margin-left: 0px;
+        
+    }
+    .cam .bella .bellasize .add{
+        padding: 11px 55px;
+    }
+    .home9{
+        background-position: 52% 36%;
+    }
+    .simp .simp2 .img2{
+        margin-top: 0px;
+    }
+    .simp .simp2 .simpimg {
+        padding: 0 0;
+    }
+    .simp .simp2 .simpimg img{
+        padding: 0 0px;
+    }
+    .day .day1{
+        margin-bottom: 20px;
+    }
+    .log .logtext{
+        width: 50%;
+        position: absolute;
+        top: 10%;
+        left: 24%;
+    }
+    .log{
+        height: 550px;
+    }
+    .log .logtext h1{
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+    .log .logtext form .keep label{
+        font-size: 13px;
+    }
+    .log .logtext form .keep .for a{
+        font-size: 13px;
+    }
+    .log .logtext form .keep2 .cre{
+        margin-top: 20px;
+    }
+    .log .logtext form .keep2 .cre a{
+        font-size: 15px;
+
+    }
+    .add .add1 .btn {
+        padding: 10px 30px;
+        margin-top: 10px;
+        font-size: 10px;
+      }
+      .add .add1 .add3 input {
+        padding: 10px;
+      }
+      .count .coun {
+        padding: 20px 10px;
+      }
+      .count .counttext h3 {
+        top: -10%;
+        right: 34%;
+        font-size: 25px;
+      }
+      .count .coun input {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+      .count .coun .form-select{
+        margin-top: 20px;
+      }
+      .price .table td {
+        padding: 8px 10px;
+        text-align: center;
+      }
+      .price .table .web{
+        padding-inline-end: 40px;
+        text-align: start;
+      }
+      .price .table th {
+        font-size: 12px;
+        padding: 8px 0px;
+      }
+      .price .table td .priceimg {
+        max-width: 40px;
+      }
+      .price .table td .pricetext a {
+        font-size: 11px;
+      }
+      .price .table td .pricetext p {
+        font-size: 11px;
+        padding-top: 7px;
+      }
+      .price .table td .num {
+        font-size: 10px;
+        padding-inline-end: 0px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+      }
+      .price .table td span {
+        font-size: 10px;
+      }
+      .price .table td .auto {
+        color: black;
+        font-size: 8px;
+      }
+      .price .table td input {
+        width: 25%;
+        text-align:center;
+        padding: 7px 5px;
+        margin-top: 5px;
+        margin-inline-end: 10px;
+      }
+      .price .table td .you {
+        padding-top: 10px;
+        font-size: 8px;
+      }
+    
+}
+
+@media screen and (max-width:600px) {
+    .home .carousel-item img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: 50%;
+    }
+    .home .carousel-item .door{
+        object-position: 73%;
+    }
+    .home .carousel-caption{
+        top: 10%;
+        right:0%;
+        left: 6%;
+    }
+    .home .carousel-caption h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .carousel-caption h2{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .carousel-caption .bttn,.bttns{
+        padding: 6px 10px;
+        font-size: 11px;
+    }
+    .items{
+        margin: 20px 0;
+    }
+    .items .itemstext{
+    top: 20%;
+    left: 5%;
+    }
+    .items .itemstext p{
+        font-size: 12px;
+    }
+    .items .itemstext h2{
+        font-size:22px;
+        padding-bottom: 5px;
+    }
+    .items .itemstext a{
+        font-size: 12px;
+    }
+    .cards .nav .nav-link{
+        font-size: 12px;
+        margin-bottom: 10px;
+
+    }
+    .cards .link a{
+        display: none;
+    }
+    .play{
+        height: 400px;
+    }
+    .play .playtext{
+        gap: 10px;
+        margin-bottom: 40px;
+    }
+    .play .playtext1 {
+        width: 70%;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    .play .playtext1 p{
+        text-transform: uppercase;
+        font-size: 11px;
+        font-family:PoppinsSemiBold ;
+        letter-spacing: 1px;
+    }
+    .play .playtext1 h3{
+        font-size: 25px;
+    }
+    .play {
+        margin: 20px 0;
+    }
+    .line{
+        margin: 20px 0;
+    }
+    .lineimg2 img{
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .line .lineimg1 .overlay2 a{
+        left: 32%;
+    }
+    .our{
+        margin-bottom: 10px;
+    }
+    .our .ourtext{
+        padding: 30px 20px;
+    }
+    .our .ourtext span{
+        font-size: 60px;
+        padding-left: 0px;
+        padding-right: 8px;
+    }
+    .our .ourtext h4{
+        font-size: 25px;
+    }
+    .our .ourtext p{
+        font-size: 13px;
+    }
+    .our .ourtext1 input{
+        margin-top: 18px;
+        width: 90%;
+        padding: 10px 0px;
+        border-bottom: 3px solid black;
+        border-radius: 0;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        margin-right: 16px;
+        outline: none;
+        display: inline-block;
+    }
+    .our .ourtext1 input:focus{
+        box-shadow: none;
+        border: none;
+        border-bottom: 3px solid black;
+    
+    }
+    .our .ourtext1 .btn{
+        padding: 7px 11px;
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+    .blog{
+    margin: 20px 0;
+    }
+    .blog .blogtext1 .card-footer{
+        margin-bottom: 30px;
+    }
+    .photo{
+        display: none;
+    }
+    .mar .marcard{
+        padding-inline-start: 40px;
+    }
+    footer .stay{
+        margin-bottom: 30px;
+    }
+    footer .story{
+        margin-bottom: 10px;
+    }
+    footer .stay .staytext p{
+        font-size: 13px;
+        padding-bottom: 20px;
+        padding-right: 5px;
+    }
+    footer .stay .staytext .staytext2 span{
+            padding: 12px 15px;
+            font-size: 15px;
+    }
+    footer .stay .staytext .staytext2 p{
+
+         padding-bottom: 7px;
+         font-size: 12px;
+         padding-right: 10px;
+    }
+    footer .stay .staytext .iconlink{
+            padding-inline-start: 40px;
+    }
+    footer .story h6{
+            font-size: 15px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+    }
+    footer .story li {
+        margin-bottom: 5px;
+    }
+    .home1{
+        background-position: 74% 100%;
+
+    }
+    .best .order{
+        display: none;
+    }
+    .home2{
+        background-position:center;
+
+    }
+    .home3{
+        background-position: 60% 34%;
+    }
+    .home4{
+        background-position: 65% 34%;
+    }
+    .home5{
+        background-position: 60% 0%;
+    }
+    .home8{
+        background-position: 49% 70%;
+    }
+    .cam .cam1{
+        display: none;
+    }
+    .cam .bella .bellasize .add{
+        padding: 11px 45px;
+        text-transform: uppercase;
+        font-size: 15px;
+    
+    }
+    .start1{
+        text-align: end;
+        margin-top: -20px;
+    }
+    .des .destext nav .nav-link{
+       font-size: 12px;
+    }
+    .pro .protext h3{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .home9{
+        height: 300px;
+        background-image: url(../backdground/bn-mq.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .home9 .shoptext h1{
+        color: white;
+        font-size: 40px;
+    }
+    .home9 .shoptext a{
+        color: white;
+    }
+    .home9 .shoptext span{
+        color: white;
+    }
+    .simp .simptext h1{
+        font-size: 25px;
+
+    }
+    .simp .simptext p{
+        font-size: 15px;
+    }
+    .simp .simp2 .img2{
+        margin-top: 0px;
+        margin: 0 0;
+    }
+    .simp .simp2 .simpimg {
+        padding: 0 0;
+        margin: 0 0;
+    }
+    .simp .simp2 .simpimg img{
+        padding: 0 0px;
+        margin: 0 0;
+    }
+    .simp .simp2{
+        padding: 0 0px;
+    }
+    .day .day1{
+        margin-bottom: 20px;
+    }
+    .home11 .shoptext h1{
+        font-size: 30px;
+    }
+    .log .logtext{
+        width: 100%;
+        position: absolute;
+        top: 10%;
+        left: 0%;
+    }
+    .log{
+        height: 550px;
+    }
+    .log .logtext h1{
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+    .log .logtext form .keep label{
+        font-size: 13px;
+    }
+    .log .logtext form .keep .for a{
+        font-size: 13px;
+    }
+    .log .logtext form .keep2 .cre{
+        margin-top: 20px;
+    }
+    .log .logtext form .keep2 .cre a{
+        font-size: 15px;
+
+    }
+    .shop .shoptext .car{
+        font-size: 30px;
+    }
+    .price .table td {
+        padding: 8px 10px;
+        text-align: center;
+      }
+      .price .table .web{
+        padding-inline-end: 70px;
+        text-align: start;
+      }
+      .price .table th {
+        font-size: 8px;
+        padding: 8px 0px;
+      }
+      .price .table td .priceimg {
+        max-width: 40px;
+      }
+      .price .table td .pricetext a {
+        font-size: 8px;
+      }
+      .price .table td .pricetext p {
+        font-size: 8px;
+        padding-top: 7px;
+      }
+      .price .table td .num {
+        font-size: 8px;
+        padding-inline-end: 0px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+      }
+      .price .table td span {
+        font-size: 8px;
+      }
+      .price .table td .auto {
+        color: black;
+        font-size: 8px;
+      }
+      .price .table td input {
+        width: 100%;
+        text-align:center;
+        padding: 0px 5px;
+        margin-top: 5px;
+        margin-inline-end: 10px;
+      }
+      .price .table td .you {
+        padding-top: 10px;
+        font-size: 8px;
+      }
+      .add .add1 p {
+        display: inline-block;
+        padding-inline-start: 0px;
+        font-size:10px;
+        text-align: center;
+      }
+      .add .add1 .btn {
+        padding: 10px 30px;
+        margin-top: 10px;
+        font-size: 10px;
+      }
+      .add .add1 .add3 input {
+        padding: 10px;
+      }
+      .add .ship {
+        text-align: end;
+        margin-top: 20px;
+      }
+      .count .coun {
+        padding: 20px 10px;
+      }
+      .count .counttext h3 {
+        top: -5%;
+        right: 19%;
+        font-size: 20px;
+      }
+      .count .coun input {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+      .count .coun .form-select{
+        margin-top: 20px;
+      }
+      .ship .money label {
+        font-size: 14px;
+      }
+}
