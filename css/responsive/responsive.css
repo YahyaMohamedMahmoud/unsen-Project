@@ -844,6 +844,9 @@
 }
 
 @media screen and (max-width:600px) {
+    .header .navbar-nav .nav-item {
+        margin-top: 10px;
+    }
     .home .carousel-item img{
         width: 100%;
         height: 300px;
@@ -1102,14 +1105,15 @@
     .home11 .shoptext h1{
         font-size: 30px;
     }
-    .log .logtext{
+    .log .logtext {
         width: 100%;
         position: absolute;
-        top: 10%;
+        top: 20%;
         left: 0%;
+        padding: 0 20px;
     }
     .log{
-        height: 550px;
+        height: 100vh;
     }
     .log .logtext h1{
         font-size: 30px;
@@ -1213,4 +1217,29 @@
       .ship .money label {
         font-size: 14px;
       }
+    .row .col-xs-6{
+        width: 50%;
+      }
+      .cardsimg:hover .overlay .icon2 a {
+        opacity: 1;
+        top: 55px;
+    }
+    .cardsimg:hover .overlay .icon3 a {
+        opacity: 1;    
+    }
+    .cardsimg:hover .overlay .icon5 a {
+        left: 9%;
+    }
+
+    .cardsimg .overlay .icon3 a {
+        font-size: 11px;
+    }
+    .cardsimg .icon a {
+        right: 8px;
+        top: 11px;
+    }
+    .cardsimg .icon span {
+        left: 8px;
+        top: 14px;
+    }
 }
